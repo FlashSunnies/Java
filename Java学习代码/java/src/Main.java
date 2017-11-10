@@ -139,11 +139,17 @@ public class Main {
         */
 
 
-       //字符串的使用
+        //字符串的使用
 
         StringExamples string = new StringExamples();
-        string.learnString();
-
+        //学习
+        //string.learnString();
+        //例子1
+        string.examplesOne();
+        //例子2
+        string.examplesTwo();
+        //字符串格式化
+        string.formatString();
 
     }
     //定义一个功能 实现2个整数的和
