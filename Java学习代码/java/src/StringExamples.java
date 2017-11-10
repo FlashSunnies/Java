@@ -49,6 +49,13 @@ public class StringExamples {
         //去掉字符串中的所有空格 方式二  replaceAll(String regex,String replacement)
         String connectString4 = connectString.replaceAll(" ","");
         System.out.println("去掉所有空格的connectString4字符串=="+connectString4);
+        System.out.println("-------------华丽的分割线-------------");
+
+
+
+        //字符串替换指定字符串
+        String connectString5 = connectString.replace("小明","校长");
+        System.out.println("connectString5===="+connectString5);
 
 
 
