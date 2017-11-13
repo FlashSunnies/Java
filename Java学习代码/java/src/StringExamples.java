@@ -172,6 +172,8 @@ public class StringExamples {
         System.out.println("结果转化为十进制="+String.format("%d",400/2));
         System.out.println("结果以布尔形式表示="+String.format("%b",3>2));
         System.out.println("结果转化为十六进制="+String.format("%x",200));
+        System.out.println("我是git上的更新");
+
 
     }
 
